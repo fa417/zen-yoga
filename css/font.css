@@ -1,0 +1,316 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+    /* カラー */
+    --pink-color: #fce8e0;
+    --sky-blue-color: #dcebf2;
+    --blue-color: #586b7b;
+    --dark-blue-color: #2c3e50;
+    --white-color: #ffffff;
+
+    /* 文字サイズ */
+    --font-size-12px: 0.75rem;
+    --font-size-14px: 0.875rem;
+    --font-size-16px: 1rem;
+    --font-size-18px: 1.125rem;
+    --font-size-24px: 1.5rem;
+    --font-size-28px: 1.75em;
+    --font-size-36px: 2.25rem;
+
+    /* 文字の太さ */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+}
+
+html {
+    color: var(--blue-color);
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: var(--font-size-16px);
+    font-weight: var(--font-weight-light);
+    font-feature-settings: "palt";
+}
+
+/* ヘッダー */
+.header-name {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-18px);
+    font-weight: var(--font-weight-bold);
+}
+
+.main-header a {
+    color: var(--white-color);
+    font-size: var(--font-size-16px);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    letter-spacing: .05rem;
+}
+
+/*  */
+
+/* 追従ボタン */
+.reserve-now {
+    color: var(--white-color);
+    font-weight: var(--font-weight-regular);
+    letter-spacing: .1rem;
+}
+
+/*  */
+
+/* ヒーローセクション */
+.shop-introduction {
+    text-align: center;
+}
+
+.shop-introduction p {
+    font-size: var(--font-size-14px);
+    font-weight: var(--font-weight-regular);
+    letter-spacing: .05rem;
+}
+
+.shop-introduction .shop-name {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-28px);
+    font-weight: var(--font-weight-bold);
+    line-height: 1.2;
+    letter-spacing: .1rem;
+}
+
+.shop-introduction p:nth-of-type(1):before,
+.free-trial-section .container .trial-sub-title::before,
+.extra-title::before,
+.campaign-title::before {
+    content: "\\";
+    margin: 0 5px;
+    color: var(--accent-color);
+    font-weight: var(--font-weight-bold);
+}
+
+.shop-introduction p:nth-of-type(1)::after,
+.free-trial-section .container .trial-sub-title::after,
+.extra-title::after,
+.campaign-title::after {
+    content: "/";
+    margin: 0 5px;
+    color: var(--accent-color);
+    font-weight: var(--font-weight-bold);
+}
+
+/*  */
+
+/* コンセプトセクション */
+.concept-description {
+    font-weight: var(--font-weight-regular);
+    font-size: var(--font-size-18px);
+}
+
+.yoga-sessions .sub-title {
+    font-size: var(--font-size-16px);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    letter-spacing: .05rem;
+}
+
+.or-center {
+    font-weight: var(--font-weight-bold);
+}
+
+.description .business-hours {
+    color: var(--white-color);
+    background: var(--blue-color);
+    font-weight: var(--font-weight-medium);
+    border-radius: 25px;
+    letter-spacing: .05rem;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+
+/*  */
+
+/* ゼン・ヨガ・ポイントセクション */
+.extra-title {
+    font-size: var(--font-size-14px);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+}
+
+.section-title {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-24px);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    line-height: 1;
+    letter-spacing: .1rem;
+}
+
+.point-circle.w p:first-of-type {
+    font-size: var(--font-size-12px);
+    line-height: 1rem;
+}
+
+.point-circle.b p:first-of-type {
+    color: var(--white-color);
+    font-size: var(--font-size-12px);
+    line-height: 1rem;
+}
+
+.point-circle.w p:last-of-type {
+    font-size: var(--font-size-16px);
+    line-height: .9;
+}
+
+.point-circle.b p:last-of-type {
+    color: var(--white-color);
+    font-size: var(--font-size-18px);
+    line-height: .9rem;
+}
+
+.zen-yoga-points-section .points-title {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-18px);
+    font-weight: var(--font-weight-medium);
+}
+
+.point-info-sp{
+    text-align: justify;
+}
+
+/*  */
+
+/* リッスンセクション */
+.effect-description .points-title {
+    background: var(--blue-color);
+    color: var(--white-color);
+    font-size: var(--font-size-18px);
+    font-weight: var(--font-weight-regular);
+}
+
+.effect-circle p {
+    color: var(--dark-blue-color);
+    font-weight: var(--font-weight-regular);
+    letter-spacing: .05rem;
+}
+
+/*  */
+
+/* ボイスセクション */
+.profile .profile-img p {
+    font-size: var(--font-size-12px);
+}
+
+/*  */
+
+/* リッスンフローセクション */
+.step-title {
+    font-size: var(--font-size-16px);
+    font-weight: var(--font-weight-regular);
+}
+
+.lesson-items .items-title,
+.procedure .items-title {
+    background: var(--blue-color);
+    color: var(--white-color);
+    font-size: var(--font-size-18px);
+    font-weight: var(--font-weight-regular);
+}
+
+.lesson-items p {
+    font-size: var(--font-size-14px);
+}
+
+.item-label {
+    text-align: center;
+}
+
+.lesson-items li::before,
+.item-label::before {
+    content: "•";
+    color: black;
+    margin-right: 0.5em;
+}
+
+.item-detail {
+    font-size: var(--font-size-14px);
+}
+
+/*  */
+
+/* キャンペーンセクション */
+.campaign-title {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-14px);
+    font-weight: var(--font-weight-bold);
+}
+
+.campaign-description p {
+    line-height: .9rem;
+    margin-top: 5px;
+}
+
+.offer-detail {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-24px);
+    font-weight: var(--font-weight-bold);
+}
+
+/*  */
+
+/* フリートライアルセクション */
+.trial-sub-title {
+    color: var(--dark-blue-color);
+    font-size: var(--font-size-14px);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+}
+
+.trial-inner .free-trial-heading {
+    background: var(--blue-color);
+    color: var(--white-color);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: var(--font-size-24px);
+    font-weight: var(--font-weight-medium);
+    letter-spacing: .1rem;
+}
+
+.trial-inner p {
+    font-size: var(--font-size-14px);
+}
+
+/*  */
+
+/* フッター */
+.access-info p,
+.access-info address {
+    font-style: normal;
+}
+
+.access-info p:nth-of-type(1) {
+    font-size: var(--font-size-12px);
+}
+
+.phone {
+    background: var(--blue-color);
+    color: var(--white-color);
+    border-radius: 20px;
+    font-size: var(--font-size-18px);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.phone a {
+    letter-spacing: .05rem;
+}
+
+/*  */
+
+
+
+
+

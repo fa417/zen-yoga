@@ -1,0 +1,1435 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+:root {
+    /* 文字サイズ */
+    --font-size-12px: 0.75rem;
+    --font-size-14px: 0.875rem;
+    --font-size-16px: 1rem;
+    --font-size-18px: 1.125rem;
+    --font-size-24px: 1.5rem;
+    --font-size-28px: 1.75em;
+    --font-size-30px: 1.875rem;
+    --font-size-36px: 2.25rem;
+
+    /* 文字の太さ */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-Medium: 500;
+    --font-weight-bold: 700;
+}
+
+/* モバイル大 --サイズ:767px-- */
+@media (min-width: 379px) and (max-width: 767px) {
+    body {
+        font-size: var(--font-size-18px);
+        font-weight: var(--font-weight-regular);
+    }
+
+    /* ヘッダー */
+    .main-header {
+        padding: 6px 10px;
+    }
+
+    .main-header a {
+        padding: 5px 15px;
+    }
+
+    /*  */
+
+    /* 追従ボタン */
+    .reserve-now {
+        padding: 5px 0;
+        letter-spacing: .2rem;
+        font-weight: var(--font-weight-Medium);
+    }
+
+    /*  */
+
+    /* スクロールボタン */
+    .to-top {
+        bottom: 55px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /*  */
+
+    /* ヒーローセクション */
+    .hero-section .shop-introduction {
+        margin-top: 40px;
+    }
+
+    .hero-section .container {
+        margin: 0 0 30px 0;
+        padding-bottom: 40px;
+    }
+
+    .sp-main-img {
+        display: none;
+    }
+
+    .pc-main-img {
+        display: block;
+    }
+
+    .hero-section .shop-introduction .shop-name {
+        line-height: normal;
+    }
+
+    .hero-section .shop-introduction .shop-name,
+    footer .shop-introduction .shop-name {
+        line-height: 3rem;
+    }
+
+    /*  */
+
+    /* コンセプトセクション */
+    .concept-section .container {
+        margin: 0 40px;
+        padding-bottom: 40px;
+    }
+
+    .container:not(.hero-section .container),
+    .footer-inner {
+        border-radius: 30px;
+    }
+
+    .yoga-sessions {
+        padding-top: 50px;
+        gap: 50px;
+    }
+
+    .sun {
+        left: 1%;
+    }
+
+    .moon {
+        top: -33%;
+        right: -3%;
+    }
+
+    .yoga-sessions .sub-title,
+    .description .business-hours {
+        font-size: var(--font-size-18px);
+    }
+
+    .content-wrapper .wave-line.b {
+        width: 90%;
+        height: 40px;
+    }
+
+    .concept-description {
+        letter-spacing: .1rem;
+    }
+
+    .description .business-hours {
+        padding: 0 20px;
+    }
+
+    /*  */
+
+    /* 共有 */
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        margin: 0 30px;
+    }
+
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        padding: 40px 15px;
+    }
+
+    .shop-introduction p,
+    .zen-yoga-points-section .extra-title,
+    .lesson-section .extra-title,
+    .voice-section .extra-title,
+    .lesson-flow-section .extra-title,
+    .campaign-title,
+    .free-trial-section .container .trial-sub-title {
+        font-size: var(--font-size-16px);
+    }
+
+    .points-section,
+    .voice-section .wrapper,
+    .lesson-flow-wrapper {
+        margin-top: 25px;
+    }
+
+    .wave-line.w {
+        height: 50px;
+        margin: 20px auto;
+    }
+
+    /*  */
+
+    /* ゼン・ヨガ・ポイントセクション */
+    .point:not(:last-child) {
+        margin: 0 auto 16px;
+    }
+
+    .point:last-child {
+        margin: auto;
+    }
+
+    .point.p,
+    .point.w,
+    .lesson-step.p,
+    .lesson-step.w {
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(88, 104, 123, 0.2);
+    }
+
+    .point.p,
+    .point.w {
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        width: 90%;
+    }
+
+    .points-img,
+    .step-img {
+        width: 20%;
+    }
+
+    .point-content {
+        width: 80%;
+    }
+
+    .point-circle.w,
+    .point.w .point-circle,
+    .point-circle.b {
+        width: 50px;
+        height: 50px;
+    }
+
+    .zen-yoga-points-section .points-title {
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* リッスンセクション */
+    .extra-detail {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .effect-description .points-title {
+        width: 30%;
+        font-weight: var(--font-weight-Medium);
+    }
+
+    .effect-circle {
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 90%;
+        margin: 15px auto 0;
+        gap: 10px;
+    }
+
+    .effect-description .effect-circle p {
+        width: 120px;
+        height: 120px;
+    }
+
+    /*  */
+
+    /* ボイスセクション */
+    .profile {
+        width: 90%;
+        margin: auto;
+    }
+
+    .profile-img {
+        width: 30%;
+    }
+
+    .woman-40,
+    .woman-50 {
+        aspect-ratio: 1/1;
+    }
+
+    .profile .profile-img p {
+        font-size: var(--font-size-14px);
+    }
+
+    .profile-text {
+        width: 70%;
+    }
+
+
+    /*  */
+
+    /* リッスンフローセクション */
+    .lesson-step.p,
+    .lesson-step.w {
+        justify-content: center;
+        width: 90%;
+    }
+
+    .lesson-step.p,
+    .lesson-step.w {
+        margin: auto;
+    }
+
+    .step-content {
+        width: 70%;
+    }
+
+    .first-arrow,
+    .second-arrow {
+        margin: 15px auto;
+    }
+
+    .step-title,
+    .lesson-items p {
+        font-size: var(--font-size-18px);
+    }
+
+    .lesson-items p {
+        text-align: center;
+    }
+
+    .sp-br {
+        display: none;
+    }
+
+    .lesson-items .items-title,
+    .procedure .items-title {
+        width: 30%;
+        font-weight: var(--font-weight-Medium);
+    }
+
+    .lesson-items {
+        margin: 25px 0;
+    }
+
+    .lesson-items ul {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .procedure-items {
+        width: 90%;
+        margin: 15px auto 0;
+        text-align: center;
+    }
+
+    .item-label {
+        font-size: var(--font-size-18px);
+    }
+
+    .item-detail {
+        font-size: var(--font-size-16px);
+    }
+
+    /*  */
+
+    /* キャンペーンセクション */
+    .campaign-section .container {
+        margin: 0 50px 15px 50px;
+        position: relative;
+    }
+
+    .campaign-section .container,
+    .free-trial-section .container {
+        padding: 5px 0 20px 0;
+        margin: 0 40px 30px 40px;
+    }
+
+    .compaign-inner {
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .campaign-description {
+        text-align: center;
+    }
+
+    .campaign-img {
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        width: 25%;
+    }
+
+    .campaign-description p {
+        line-height: normal;
+    }
+
+    /*  */
+
+    /* フリートライアルセクション */
+    .free-trial-section .container {
+        margin: 0 40px;
+    }
+
+    .trial-inner {
+        width: 90%;
+        margin: auto;
+    }
+
+    .yoga-img {
+        width: 9%;
+        top: -10%;
+        left: 20%;
+    }
+
+    /*  */
+
+    /* フッター */
+    .footer-inner {
+        padding: 20px 0;
+        margin: 30px 40px 55px 40px;
+    }
+
+    footer .shop-branding {
+        width: 90%;
+        margin: auto;
+    }
+
+    footer .shop-introduction {
+        margin: 10px 0;
+    }
+
+    .access-info {
+        width: 50%;
+    }
+
+    .footer-inner .wave-line.b {
+        height: 40px;
+        width: 90%;
+    }
+
+    .access-info p:nth-of-type(1) {
+        font-size: var(--font-size-14px);
+    }
+
+    .phone {
+        font-size: var(--font-size-24px);
+        margin: 15px auto 0;
+        width: 90%;
+    }
+
+    /*  */
+
+}
+
+/* タブレット --サイズ:768px～1023px-- */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: var(--font-size-18px);
+        font-weight: var(--font-weight-regular);
+        line-height: 1.5;
+    }
+
+    /* ヘッダー */
+    .main-header {
+        padding: 8px 16px;
+    }
+
+    .main-header a {
+        padding: 10px 20px;
+    }
+
+    /*  */
+
+    /* 追従ボタン */
+    .reserve-now {
+        padding: 5px 0;
+        letter-spacing: .3rem;
+        font-weight: var(--font-weight-Medium);
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* スクロールボタン */
+    .to-top {
+        bottom: 65px;
+        right: 25px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    /*  */
+
+    /* ヒーローセクション */
+    .hero-section .container {
+        margin: 0 0 40px 0;
+        padding-bottom: 50px;
+    }
+
+    .hero-section .shop-introduction {
+        margin-top: 50px;
+    }
+
+    .sp-main-img {
+        display: none;
+    }
+
+    .pc-main-img {
+        display: block;
+    }
+
+    .hero-section .shop-introduction .shop-name,
+    footer .shop-introduction .shop-name {
+        font-size: var(--font-size-30px);
+        line-height: 3rem;
+    }
+
+    /*  */
+
+    /* コンセプトセクション */
+    .concept-section .container {
+        margin: 0 50px;
+        padding-bottom: 50px;
+    }
+
+    .container:not(.hero-section .container),
+    .footer-inner {
+        border-radius: 40px;
+    }
+
+    .yoga-sessions {
+        padding-top: 60px;
+        gap: 80px;
+    }
+
+    .sun {
+        left: 1%;
+        width: 10%;
+    }
+
+    .moon {
+        top: -28%;
+        right: -2%;
+        width: 15%;
+    }
+
+    .yoga-sessions .sub-title,
+    .or-center,
+    .concept-description {
+        font-size: var(--font-size-24px);
+    }
+
+    .concept-description {
+        letter-spacing: .1rem;
+    }
+
+    .content-wrapper .wave-line.b {
+        height: 50px;
+        width: 80%;
+    }
+
+    .description .business-hours {
+        margin-top: 25px;
+        padding: 0 30px;
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* 共有 */
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        margin: 0 40px;
+    }
+
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        padding: 50px 20px;
+    }
+
+    .shop-introduction p,
+    .zen-yoga-points-section .extra-title,
+    .lesson-section .extra-title,
+    .voice-section .extra-title,
+    .lesson-flow-section .extra-title,
+    .campaign-title,
+    .free-trial-section .container .trial-sub-title {
+        font-size: var(--font-size-18px);
+    }
+
+    .zen-yoga-points-section .section-title,
+    .lesson-section .section-title,
+    .voice-section .section-title,
+    .lesson-flow-section .section-title {
+        font-size: var(--font-size-28px);
+    }
+
+    .points-section,
+    .voice-section .wrapper,
+    .lesson-flow-wrapper {
+        margin-top: 30px;
+    }
+
+    .wave-line.w {
+        margin: 30px auto;
+        height: 50px;
+    }
+
+    /*  */
+
+    /* ゼン・ヨガ・ポイントセクション */
+    .point:not(:last-child) {
+        margin: 0 auto 20px;
+    }
+
+    .point:last-child {
+        margin: auto;
+    }
+
+    .point.p,
+    .point.w,
+    .lesson-step.p,
+    .lesson-step.w {
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(88, 104, 123, 0.2);
+    }
+
+    .point.p,
+    .point.w {
+        justify-content: center;
+        width: 80%;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .point-circle.w,
+    .point.w .point-circle,
+    .point-circle.b {
+        width: 70px;
+        height: 70px;
+    }
+
+    .points-img,
+    .step-img {
+        width: 20%;
+    }
+
+    .point-content {
+        width: 70%;
+    }
+
+    .point-info-sp {
+        display: none;
+    }
+
+    .point-info-pc {
+        display: block;
+    }
+
+    .point-circle.w p:first-of-type,
+    .point-circle.b p:first-of-type {
+        font-size: var(---font-size-14px);
+        line-height: normal;
+    }
+
+    .point-circle.w p:last-of-type,
+    .point-circle.b p:last-of-type {
+        font-size: var(--font-size-24px);
+        font-weight: var(--font-weight-Medium);
+        line-height: normal;
+    }
+
+    .zen-yoga-points-section .points-title {
+        font-size: var(--font-size-24px);
+    }
+
+    .point-info {
+        margin-top: 10px;
+    }
+
+    .point-header,
+    .step-content {
+        gap: 20px;
+    }
+
+    /*  */
+
+    /* リッスンセクション */
+    .extra-detail {
+        width: 80%;
+        margin: 30px auto;
+        line-height: 1.8rem;
+    }
+
+    .effect-description .points-title {
+        font-size: var(--font-size-24px);
+        font-weight: var(--font-weight-Medium);
+        width: 30%;
+    }
+
+    .effect-circle {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 20px auto 0;
+        gap: 20px;
+        width: 60%;
+    }
+
+    .effect-description .effect-circle p {
+        width: 150px;
+        height: 150px;
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* ボイスセクション */
+    .wrapper {
+        width: 80%;
+        margin: auto;
+        gap: 20px;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .profile-img {
+        width: 25%;
+    }
+
+    .woman-40,
+    .woman-50 {
+        width: 100%;
+        height: 150px;
+    }
+
+    .profile .profile-img p {
+        font-size: var(--font-size-14px);
+    }
+
+    .profile-text {
+        width: 100%;
+        padding: 10px;
+        line-height: 1.8rem;
+    }
+
+    .profile .profile-img p {
+        font-size: var(--font-size-16px);
+    }
+
+    /*  */
+
+    /* リッスンフローセクション */
+    .lesson-step.p,
+    .lesson-step.w {
+        justify-content: center;
+        width: 80%;
+        gap: 30px;
+        margin: auto;
+    }
+
+    .first-arrow,
+    .second-arrow {
+        margin: 20px auto;
+    }
+
+    .step-title,
+    .lesson-items .items-title,
+    .procedure .items-title {
+        font-size: var(--font-size-24px);
+        font-weight: var(--font-weight-Medium);
+    }
+
+    .lesson-info {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 30px auto 0;
+    }
+
+    .lesson-items .items-title,
+    .procedure .items-title {
+        width: 100%;
+    }
+
+    .step-content {
+        width: 70%;
+    }
+
+    .sp-br {
+        display: none;
+    }
+
+    .lesson-items {
+        width: 45%;
+        margin: 0;
+    }
+
+    .lesson-items ul {
+        width: 100%;
+        margin: 20px 0;
+        gap: 10px 15px;
+        text-align: left;
+    }
+
+    .lesson-items p {
+        font-size: var(--font-size-16px);
+    }
+
+    .procedure {
+        width: 45%;
+    }
+
+    .procedure-items {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .item-label:last-of-type {
+        margin-top: 20px;
+    }
+
+    .item-label {
+        font-size: var(--font-size-18px);
+        text-align: left;
+    }
+
+    .item-detail {
+        font-size: var(---font-size-16px);
+    }
+
+    /*  */
+
+    /* キャンペーンセクション */
+    .campaign-section .container {
+        margin: 0 50px 40px 50px;
+        position: relative;
+    }
+
+    .campaign-section .container,
+    .free-trial-section .container {
+        padding: 15px 20px 30px 20px;
+    }
+
+    .compaign-inner {
+        display: block;
+        border-radius: 50px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .campaign-description {
+        text-align: center;
+    }
+
+    .offer-detail {
+        font-size: var(--font-size-30px);
+    }
+
+    .campaign-img {
+        position: absolute;
+        top: 10%;
+        right: 8%;
+        width: 25%;
+    }
+
+    .campaign-description p {
+        line-height: normal;
+    }
+
+    /*  */
+
+    /* フリートライアルセクション */
+    .free-trial-section .container {
+        margin: 0 50px;
+    }
+
+    .trial-inner {
+        width: 80%;
+        margin: auto;
+        border-radius: 50px;
+    }
+
+    .trial-inner .free-trial-heading {
+        font-size: var(--font-size-30px);
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .trial-inner p {
+        font-size: var(--font-size-24px);
+    }
+
+    .yoga-img {
+        width: 9%;
+        top: -5%;
+        left: 16%;
+    }
+
+    /*  */
+
+    /* フッター */
+    .footer-inner {
+        display: block;
+        padding: 30px 20px;
+        margin: 40px 50px 65px 50px;
+    }
+
+    footer .shop-branding {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .shop-introduction {
+        margin: 20px 0;
+    }
+
+    .footer-inner .wave-line.b {
+        height: 50px;
+        width: 80%;
+    }
+
+    .access-info {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .access-info p:nth-of-type(1) {
+        font-size: var(--font-size-14px);
+    }
+
+    .phone {
+        font-size: var(--font-size-24px);
+        margin: 20px auto 0;
+        width: 50%;
+    }
+
+    .phone a {
+        letter-spacing: .1rem;
+    }
+
+    /*  */
+
+}
+
+/* PC --サイズ:1034px以上--*/
+@media (min-width: 1024px) {
+
+    body {
+        font-size: var(--font-size-18px);
+        font-weight: var(--font-weight-regular);
+        line-height: 1.4;
+    }
+
+    /* ヘッダー */
+    .main-header {
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .main-header a {
+        padding: 10px 20px;
+        padding: 8px 16px;
+    }
+
+    /*  */
+
+    /* 追従ボタン */
+    .reserve-now {
+        padding: 5px 0;
+        letter-spacing: .3rem;
+        font-weight: var(--font-weight-Medium);
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* スクロールボタン */
+    .to-top {
+        bottom: 65px;
+        right: 25px;
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+    }
+
+    /*  */
+
+    /* ヒーローセクション */
+    .hero-section .container {
+        margin: 0 auto 60px;
+        padding-bottom: 70px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        max-width: 1200px;
+    }
+
+    .hero-section .shop-introduction {
+        margin-top: 70px;
+    }
+
+    .sp-main-img {
+        display: none;
+    }
+
+    .pc-main-img {
+        display: block;
+        margin: auto;
+    }
+
+    .hero-section .shop-introduction .shop-name,
+    footer .shop-introduction .shop-name {
+        font-size: var(--font-size-36px);
+        line-height: 3.5rem;
+    }
+
+    /*  */
+
+    /* コンセプトセクション */
+    .concept-section .container {
+        max-width: 1100px;
+        margin: auto;
+        padding-bottom: 70px;
+    }
+
+    .container:not(.hero-section .container),
+    .footer-inner {
+        border-radius: 50px;
+    }
+
+    .yoga-sessions {
+        padding-top: 70px;
+        gap: 80px;
+    }
+
+    .sun {
+        top: 2%;
+        left: 2%;
+        width: 10%;
+    }
+
+    .moon {
+        top: -23%;
+        right: -2%;
+        width: 15%;
+    }
+
+    .yoga-sessions .sub-title,
+    .or-center,
+    .concept-description {
+        font-size: var(--font-size-24px);
+    }
+
+    .concept-description {
+        letter-spacing: .1rem;
+        margin-top: 20px;
+    }
+
+    .content-wrapper .wave-line.b {
+        height: 40px;
+        width: 80%;
+    }
+
+    .description .business-hours {
+        margin-top: 25px;
+        padding: 0 30px;
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* 共有 */
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        margin: auto;
+    }
+
+    .zen-yoga-points-section .container,
+    .lesson-section .container,
+    .voice-section .container,
+    .lesson-flow-section .container {
+        padding: 70px 0;
+        max-width: 1200px;
+    }
+
+    .shop-introduction p,
+    .zen-yoga-points-section .extra-title,
+    .lesson-section .extra-title,
+    .voice-section .extra-title,
+    .lesson-flow-section .extra-title,
+    .campaign-title,
+    .free-trial-section .container .trial-sub-title {
+        font-size: var(--font-size-18px);
+    }
+
+    .zen-yoga-points-section .section-title,
+    .lesson-section .section-title,
+    .voice-section .section-title,
+    .lesson-flow-section .section-title {
+        font-size: var(--font-size-28px);
+    }
+
+    .points-section,
+    .voice-section .wrapper,
+    .lesson-flow-wrapper {
+        margin: 30px auto 0;
+    }
+
+    .wave-line.w {
+        margin: 40px auto;
+        height: 50px;
+        max-width: 1080px;
+    }
+
+    /*  */
+
+    /* ゼン・ヨガ・ポイントセクション */
+    .point:not(:last-child) {
+        margin: 0 auto 20px;
+    }
+
+    .point:last-child {
+        margin: auto;
+    }
+
+    .point.p,
+    .point.w,
+    .lesson-step.p,
+    .lesson-step.w {
+        border-radius: 50px;
+        box-shadow: 0 4px 10px rgba(88, 104, 123, 0.2);
+    }
+
+    .point.p,
+    .point.w {
+        justify-content: center;
+        width: 90%;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .points-img,
+    .step-img {
+        width: 20%;
+    }
+
+    .point-info-sp {
+        display: none;
+    }
+
+    .point-info-pc {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .point-circle.w,
+    .point.w .point-circle,
+    .point-circle.b {
+        width: 80px;
+        height: 80px;
+    }
+
+    .point-content {
+        width: 70%;
+    }
+
+    .point-circle.w p:first-of-type,
+    .point-circle.b p:first-of-type {
+        font-size: var(---font-size-16px);
+        line-height: normal;
+    }
+
+    .point-circle.w p:last-of-type,
+    .point-circle.b p:last-of-type {
+        font-size: var(--font-size-24px);
+        font-weight: var(--font-weight-Medium);
+        line-height: normal;
+    }
+
+    .zen-yoga-points-section .points-title,
+    .zen-yoga-points-section .points-title {
+        font-size: var(--font-size-24px);
+    }
+
+    .point-header,
+    .step-content {
+        gap: 20px;
+    }
+
+    .point-info {
+        margin-top: 10px;
+    }
+
+    /*  */
+
+    /* リッスンセクション */
+    .extra-detail {
+        width: 90%;
+        margin: 30px auto;
+        line-height: 1.8rem;
+    }
+
+    .effect-description .points-title {
+        font-size: var(--font-size-24px);
+        width: 20%;
+    }
+
+    .effect-circle {
+        justify-content: center;
+        margin: 20px auto 0;
+        gap: 30px;
+        width: 90%;
+    }
+
+    .effect-description .effect-circle p {
+        width: 160px;
+        height: 160px;
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* ボイスセクション */
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .profile {
+        width: 50%;
+    }
+
+    .profile:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .profile-img {
+        width: 40%;
+    }
+
+    .woman-40,
+    .woman-50 {
+        aspect-ratio: 2/3;
+    }
+
+    .profile .profile-img p {
+        font-size: var(--font-size-14px);
+    }
+
+    .profile-text {
+        width: 100%;
+        padding: 10px;
+        line-height: 1.8rem;
+    }
+
+    .profile .profile-img p {
+        font-size: var(--font-size-16px);
+    }
+
+    /*  */
+
+    /* リッスンフローセクション */
+    .lesson-step.p,
+    .lesson-step.w {
+        justify-content: center;
+        width: 90%;
+        gap: 50px;
+        margin: auto;
+    }
+
+    .first-arrow,
+    .second-arrow {
+        margin: 20px auto;
+    }
+
+    .step-content {
+        width: 50%;
+    }
+
+    .step-title {
+        font-size: var(--font-size-24px);
+        font-weight: var(--font-weight-Medium);
+    }
+
+    .lesson-info {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        margin: 30px auto 0;
+    }
+
+    .lesson-items .items-title,
+    .procedure .items-title {
+        font-size: var(--font-size-24px);
+    }
+
+    .lesson-items .items-title,
+    .procedure .items-title {
+        width: 100%;
+    }
+
+    .sp-br {
+        display: none;
+    }
+
+    .lesson-items {
+        width: 45%;
+        margin: 0;
+    }
+
+    .lesson-items ul {
+        width: 100%;
+        margin: 20px 0;
+        gap: 15px 20px;
+        text-align: left;
+    }
+
+    .lesson-items p {
+        font-size: var(--font-size-16px);
+    }
+
+    .lesson-items p {
+        text-align: left;
+    }
+
+    .procedure {
+        width: 45%;
+    }
+
+    .procedure-items {
+        margin-top: 20px;
+    }
+
+    .item-label {
+        font-size: var(--font-size-18px);
+        text-align: left;
+    }
+
+    .item-detail {
+        font-size: var(--font-size-16px);
+    }
+
+    /*  */
+
+    /* キャンペーンセクション */
+    .campaign-section .container {
+        margin: 0 auto 60px;
+        position: relative;
+        max-width: 1100px;
+    }
+
+    .campaign-section .container,
+    .free-trial-section .container {
+        padding: 20px 0 35px 0;
+    }
+
+    .compaign-inner {
+        display: block;
+        border-radius: 60px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .campaign-description {
+        text-align: center;
+    }
+
+    .offer-detail {
+        font-size: var(--font-size-30px);
+    }
+
+    .campaign-img {
+        position: absolute;
+        top: 10%;
+        right: 8%;
+        width: 25%;
+    }
+
+    .campaign-description p {
+        line-height: normal;
+    }
+
+    /*  */
+
+    /* フリートライアルセクション */
+    .free-trial-section .container {
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+
+    .trial-inner {
+        width: 90%;
+        margin: auto;
+    }
+
+    .trial-inner .free-trial-heading {
+        font-size: var(--font-size-30px);
+    }
+
+    .yoga-img {
+        width: 9%;
+        top: -8%;
+        left: 18%;
+    }
+
+    .trial-inner p {
+        font-size: var(--font-size-24px);
+    }
+
+    /*  */
+
+    /* フッター */
+    .footer-inner {
+        display: block;
+        padding: 35px 0;
+        margin: 60px auto 65px;
+        max-width: 1100px;
+    }
+
+    footer .shop-branding {
+        width: 80%;
+        margin: auto;
+    }
+
+    footer .shop-introduction {
+        margin: 20px 0;
+    }
+
+    .footer-inner .wave-line.b {
+        height: 40px;
+        width: 80%;
+    }
+
+    .access-info {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .access-info p:nth-of-type(1) {
+        font-size: var(--font-size-14px);
+    }
+
+    .phone {
+        font-size: var(--font-size-24px);
+        margin: 20px auto 0;
+        width: 50%;
+
+    }
+
+    /*  */
+}

@@ -1,0 +1,417 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.02em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/* ヘッダー */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+}
+
+.site {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.main-header a {
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+/*  */
+
+/* 追従ボタン */
+.reserve-now {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    z-index: 1001;
+}
+
+/*  */
+
+/* 共通 */
+.free-trial-section .container,
+.zen-yoga-points-section .container,
+.lesson-section .container,
+.voice-section .container,
+.lesson-flow-section .container {
+    margin: 0 20px;
+}
+
+/*  */
+
+/* ヒーローセクション */
+.hero-section .container {
+    margin: 0 0 15px 0;
+    padding-bottom: 15px;
+}
+
+.pc-main-img {
+    display: none;
+}
+
+.hero-section .shop-introduction {
+    margin-top: 15px;
+}
+
+/*  */
+
+/* コンセプトセクション */
+.concept-section .container {
+    margin: 0 20px;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.yoga-sessions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.sun {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 15%;
+    height: auto;
+}
+
+.moon {
+    position: absolute;
+    top: -20%;
+    right: -3%;
+    width: 20%;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/*  */
+
+/* ゼン・ヨガ・ポイントセクション */
+.zen-yoga-points-section .container,
+.lesson-section .container,
+.voice-section .container,
+.lesson-flow-section .container {
+    padding: 20px 16px;
+}
+
+.points-section,
+.voice-section .wrapper,
+.lesson-flow-wrapper {
+    margin-top: 20px;
+}
+
+.point.p,
+.point.w {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.point:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.points-img,
+.step-img {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+.points-img.first-img,
+.points-img.second-img,
+.points-img.fourth-img,
+.points-img.fifth-img,
+.step-img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.points-img.third-img {
+    object-position: top;
+    object-fit: cover;
+}
+
+.point-content {
+    width: 75%;
+}
+
+.point-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point-info-sp {
+    margin-top: 5px;
+}
+
+.point-info-pc {
+    margin-top: 10px;
+}
+
+.point-info-pc {
+    display: none;
+}
+
+/*  */
+
+/* リッスンセクション */
+.extra-detail {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.effect-description .points-title {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.effect-circle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/*  */
+
+/* ボイスセクション */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 40%;
+    position: relative;
+}
+
+.profile-img p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom-left-radius: 20px;
+    padding: 2px 10px;
+}
+
+.profile-text {
+    width: 65%;
+    padding: 10px;
+    text-align: justify;
+}
+
+.woman-40,
+.woman-50 {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px 0 0 20px;
+}
+
+/*  */
+
+/* リッスンフローセクション */
+.lesson-items {
+    margin: 20px 0;
+}
+
+.lesson-step.p,
+.lesson-step.w {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.lesson-items .items-title,
+.procedure .items-title {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.lesson-items ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 10px;
+    padding: 0;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.procedure-items {
+    margin-top: 15px;
+}
+
+.item-label:last-of-type {
+    margin-top: 15px;
+}
+
+/*  */
+
+/* キャンペーンセクション */
+.campaign-section .container {
+    text-align: center;
+    padding: 0 16px 15px 16px;
+    margin: 0 10px 15px 10px;
+    position: relative;
+}
+
+.compaign-inner {
+    padding: 5px 0;
+}
+
+.campaign-description {
+    display: block;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.campaign-img {
+    position: absolute;
+    width: 25%;
+    top: -5%;
+    right: 1%;
+}
+
+.step-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+
+/*  */
+
+/* フリートライアルセクション */
+.free-trial-section .container {
+    padding: 0 16px 15px 16px;
+    position: relative;
+}
+
+.trial-inner {
+    text-align: center;
+    cursor: pointer;
+}
+
+.yoga-img {
+    width: 15%;
+    position: absolute;
+    top: -6%;
+    left: 1%;
+}
+
+.wave-line-below {
+    width: 100%;
+    height: 10px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10'><path d='M0 5 Q 10 0, 20 5 T 40 5 T 60 5 T 80 5 T 100 5 T 120 5' stroke='%23ffffff' fill='transparent' stroke-width='2'/></svg>");
+    background-repeat: repeat-x;
+    background-size: auto 10px;
+}
+
+/*  */
+
+/* フッター */
+footer {
+    position: relative;
+    z-index: 0;
+}
+
+.footer-inner {
+    padding: 20px 16px;
+    margin: 15px 10px 40px 10px;
+}
+
+.access-info {
+    width: 70%;
+    margin: auto;
+}
+
+/*  */
