@@ -19,6 +19,92 @@
     --font-weight-bold: 700;
 }
 
+/* モバイル最小 --サイズ:300px */
+@media (min-width:300px)and(max-width:377px) {
+    body {
+        font-size: var(--font-size-16px);
+        font-weight: var(--font-weight-regular);
+    }
+
+    /* ヘッダー */
+    /*  */
+
+    /* 追従ボタン */
+    /*  */
+
+    /* スクロールボタン */
+    /*  */
+    /* ヒーローセクション */
+    /*  */
+
+    /* コンセプトセクション */
+    .yoga-sessions {
+        display: block;
+    }
+
+    .or-center {
+        text-align: center;
+        margin: 10px 0;
+        padding-bottom: 20px;
+    }
+
+    .sun {
+        top: 3%;
+        left: 2%;
+    }
+
+    .moon {
+        top: -5%;
+        right: -1%;
+    }
+
+    /*  */
+
+    /* ゼン・ヨガ・ポイントセクション */
+    .point.p,
+    .point.w {
+        display: block;
+    }
+
+    .points-img.first-img,
+    .points-img.second-img,
+    .points-img.fourth-img,
+    .points-img.fifth-img,
+    .step-img {
+        width: 30%;
+        margin: auto;
+    }
+
+    .point-content {
+        width: 100%;
+    }
+
+    .point-header {
+        justify-content: center;
+    }
+
+    /*  */
+
+    /* 共有 */
+    .section-title {
+        font-size: var(--font-size-18px);
+    }
+
+    /*  */
+
+    /* リッスンセクション */
+    .effect-circle{
+        display: block;
+    }
+
+    .effect-circle p{
+        width: 80px;
+        height: 80px;
+    }
+    /*  */
+
+}
+
 /* モバイル大 --サイズ:767px-- */
 @media (min-width: 379px) and (max-width: 767px) {
     body {
@@ -28,7 +114,7 @@
 
     /* ヘッダー */
     .main-header {
-        padding: 6px 10px;
+        padding: 5px 20px;
     }
 
     .main-header a {
@@ -136,7 +222,7 @@
     .lesson-section .container,
     .voice-section .container,
     .lesson-flow-section .container {
-        margin: 0 30px;
+        margin: 0 20px;
     }
 
     .zen-yoga-points-section .container,
@@ -434,7 +520,7 @@
 
     /* ヘッダー */
     .main-header {
-        padding: 8px 16px;
+        padding: 10px 30px;
     }
 
     .main-header a {
@@ -545,7 +631,7 @@
     .lesson-section .container,
     .voice-section .container,
     .lesson-flow-section .container {
-        margin: 0 40px;
+        margin: 0 30px;
     }
 
     .zen-yoga-points-section .container,
@@ -933,6 +1019,7 @@
 
     /* ヘッダー */
     .main-header {
+        padding: 10px 40px;
         margin: auto;
         max-width: 1200px;
     }
