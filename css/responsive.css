@@ -55,7 +55,7 @@
 
     .moon {
         top: -5%;
-        right: -1%;
+        right: -2%;
     }
 
     /*  */
@@ -70,8 +70,13 @@
     .points-img.second-img,
     .points-img.fourth-img,
     .points-img.fifth-img,
+    .points-img.third-img,
     .step-img {
         width: 30%;
+        margin: auto;
+    }
+
+    .points-img.third-img{
         margin: auto;
     }
 
