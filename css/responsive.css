@@ -22,6 +22,7 @@
 /* モバイル最小 --サイズ:300px */
 @media (min-width:200px) and (max-width:377px) {
     body {
+        background: pink;
         font-size: var(--font-size-16px);
         font-weight: var(--font-weight-regular);
     }
@@ -76,7 +77,7 @@
         margin: auto;
     }
 
-    .points-img.third-img{
+    .points-img.third-img {
         margin: auto;
     }
 
@@ -84,7 +85,7 @@
         width: 100%;
     }
 
-    .point-header{
+    .point-header {
         gap: 20px;
     }
 
@@ -98,29 +99,32 @@
     /*  */
 
     /* リッスンセクション */
-    .effect-circle{
+    .effect-circle {
         gap: 20px;
     }
 
-    .effect-circle p{
+    .effect-circle p {
         width: 80px;
         height: 80px;
         font-size: var(--font-size-14px);
     }
+
     /*  */
 
     /* ボイスセクション */
     /*  */
 
     /* リッスンフローセクション */
-    .lesson-step.p, .lesson-step.w{
+    .lesson-step.p,
+    .lesson-step.w {
         display: block;
     }
 
-    .step-content{
+    .step-content {
         justify-content: center;
         gap: 20px;
     }
+
     /*  */
 
 }
