@@ -242,6 +242,10 @@
 
     /* ボイスセクション */
     .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
         width: 90%;
         margin: auto;
     }
