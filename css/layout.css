@@ -318,7 +318,6 @@ textarea {
     text-align: center;
     padding: 0 16px 15px 16px;
     margin: 0 20px 15px 20px;
-    position: relative;
 }
 
 .compaign-inner {
@@ -332,10 +331,7 @@ textarea {
 }
 
 .campaign-img {
-    position: absolute;
-    width: 25%;
-    top: -5%;
-    right: 0;
+    display: none;
 }
 
 .step-content {
@@ -351,7 +347,6 @@ textarea {
 /* フリートライアルセクション */
 .free-trial-section .container {
     padding: 0 16px 15px 16px;
-    position: relative;
 }
 
 .trial-inner {
@@ -360,9 +355,7 @@ textarea {
 }
 
 .yoga-img {
-    width: 10%;
-    position: absolute;
-    top: 0;
+    display: none;
 }
 
 .wave-line-below {
