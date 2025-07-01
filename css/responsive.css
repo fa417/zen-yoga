@@ -587,6 +587,7 @@
     .points-img,
     .step-img {
         width: 20%;
+        margin: 0;
     }
 
     .point-info-sp {
@@ -976,6 +977,9 @@
     }
 
     .yoga-sessions {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         padding-top: 70px;
         gap: 80px;
     }
@@ -987,7 +991,7 @@
     }
 
     .moon {
-        top: -23%;
+        top: -15%;
         right: -2%;
         width: 15%;
     }
@@ -1005,7 +1009,6 @@
 
     .content-wrapper .wave-line.b {
         height: 40px;
-        width: 80%;
     }
 
     .description .business-hours {
@@ -1082,6 +1085,7 @@
 
     .point.p,
     .point.w {
+        display: flex;
         justify-content: center;
         width: 90%;
         gap: 30px;
@@ -1091,6 +1095,7 @@
     .points-img,
     .step-img {
         width: 20%;
+        margin: 0;
     }
 
     .point-info-sp {
@@ -1133,6 +1138,7 @@
 
     .point-header,
     .step-content {
+        justify-content: flex-start;
         gap: 20px;
     }
 
