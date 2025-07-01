@@ -101,7 +101,7 @@
     }
 
     .moon {
-        top: -5%;
+        top: -7%;
         right: -2%;
     }
 
@@ -462,11 +462,6 @@
     .concept-section .container {
         margin: 0 50px;
         padding-bottom: 50px;
-    }
-
-    .container:not(.hero-section .container),
-    .footer-inner {
-        border-radius: 40px;
     }
 
     .yoga-sessions {
