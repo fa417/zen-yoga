@@ -544,6 +544,14 @@
         margin-top: 30px;
     }
 
+    .points-img.first-img,
+    .points-img.second-img,
+    .points-img.fourth-img,
+    .points-img.fifth-img,
+    .step-img {
+        margin: 0;
+    }
+
     .wave-line.w {
         margin: 30px auto;
         height: 50px;
@@ -587,8 +595,6 @@
     .points-img,
     .step-img {
         width: 20%;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
     }
 
     .point-info-sp {
@@ -1059,6 +1065,14 @@
         margin: 30px auto 0;
     }
 
+    .points-img.first-img,
+    .points-img.second-img,
+    .points-img.fourth-img,
+    .points-img.fifth-img,
+    .step-img {
+        margin: 0;
+    }
+
     .wave-line.w {
         margin: 40px auto;
         height: 50px;
@@ -1096,8 +1110,6 @@
     .points-img,
     .step-img {
         width: 20%;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
     }
 
     .point-info-sp {
