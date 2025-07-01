@@ -1200,6 +1200,7 @@
     .profile {
         width: 50%;
         display: flex;
+        align-items: center;
     }
 
     .profile:not(:last-child) {
