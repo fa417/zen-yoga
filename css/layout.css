@@ -137,7 +137,7 @@ textarea {
 
 .moon {
     position: absolute;
-    top: -8%;
+    top: -6%;
     right: -3%;
     width: 20%;
     height: auto;
@@ -371,8 +371,7 @@ textarea {
 .yoga-img {
     width: 10%;
     position: absolute;
-    top: -6%;
-    left: 2%;
+    top: 0;
 }
 
 .wave-line-below {
