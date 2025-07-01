@@ -242,10 +242,10 @@
 
     /* ボイスセクション */
     .profile {
-        display: flex;
+        /* display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 20px;
+        gap: 20px; */
         width: 90%;
         margin: auto;
     }
@@ -262,11 +262,6 @@
     .profile .profile-img p {
         font-size: var(--font-size-14px);
     }
-
-    .profile-text {
-        width: 70%;
-    }
-
 
     /*  */
 
