@@ -185,12 +185,12 @@
         width: 40%;
     }
 
-    /* .point-circle.w,
+    .point-circle.w,
     .point.w .point-circle,
     .point-circle.b {
         width: 50px;
         height: 50px;
-    } */
+    }
 
     .zen-yoga-points-section .points-title {
         font-size: var(--font-size-24px);
@@ -238,7 +238,7 @@
         aspect-ratio: 1/1;
     }
 
-    */ .profile .profile-img p {
+    .profile .profile-img p {
         font-size: var(--font-size-14px);
     }
 
@@ -268,10 +268,6 @@
 
     .lesson-items p {
         text-align: center;
-    }
-
-    .sp-br {
-        display: none;
     }
 
     .lesson-items .items-title,
