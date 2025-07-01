@@ -317,7 +317,7 @@ textarea {
 .campaign-section .container {
     text-align: center;
     padding: 0 16px 15px 16px;
-    margin: 0 10px 15px 10px;
+    margin: 0 20px 15px 20px;
     position: relative;
 }
 
@@ -383,7 +383,7 @@ footer {
 
 .footer-inner {
     padding: 20px 16px;
-    margin: 15px 10px 40px 10px;
+    margin: 15px 20px 40px 20px;
 }
 
 .access-info {
