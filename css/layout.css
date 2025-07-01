@@ -335,7 +335,7 @@ textarea {
     position: absolute;
     width: 25%;
     top: -5%;
-    right: 1%;
+    right: 0;
 }
 
 .step-content {
