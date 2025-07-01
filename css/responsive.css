@@ -247,7 +247,7 @@
     }
 
     .profile-img {
-        width: 30%;
+        width: 50%;
     }
 
     /* .woman-40,
@@ -393,10 +393,6 @@
 
     footer .shop-introduction {
         margin: 10px 0;
-    }
-
-    .access-info {
-        width: 50%;
     }
 
     .footer-inner .wave-line.b {
