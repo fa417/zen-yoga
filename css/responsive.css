@@ -92,11 +92,6 @@
         padding-bottom: 40px;
     }
 
-    .container:not(.hero-section .container),
-    .footer-inner {
-        border-radius: 30px;
-    }
-
     .yoga-sessions {
         padding-top: 50px;
     }
@@ -106,7 +101,7 @@
     }
 
     .moon {
-        top: -15%;
+        top: -5%;
         right: -2%;
     }
 
@@ -178,14 +173,6 @@
     }
 
     .point.p,
-    .point.w,
-    .lesson-step.p,
-    .lesson-step.w {
-        border-radius: 50px;
-        box-shadow: 0 4px 10px rgba(88, 104, 123, 0.2);
-    }
-
-    .point.p,
     .point.w {
         justify-content: center;
         gap: 20px;
@@ -242,10 +229,6 @@
 
     /* ボイスセクション */
     .profile {
-        /* display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px; */
         width: 90%;
         margin: auto;
     }
