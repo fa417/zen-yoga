@@ -121,26 +121,23 @@ textarea {
 
 .yoga-sessions {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
-    gap: 20px;
     padding-top: 40px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
 .sun {
     position: absolute;
     top: 1%;
-    left: 0;
+    left: 2%;
     width: 15%;
     height: auto;
 }
 
 .moon {
     position: absolute;
-    top: -20%;
+    top: -8%;
     right: -3%;
     width: 20%;
     height: auto;
@@ -172,11 +169,7 @@ textarea {
 
 .point.p,
 .point.w {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 10px;
-    gap: 10px;
 }
 
 .point:not(:last-child) {
@@ -202,15 +195,13 @@ textarea {
 .points-img.third-img {
     object-position: top;
     object-fit: cover;
-}
-
-.point-content {
-    width: 75%;
+    margin: auto;
 }
 
 .point-header {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -239,7 +230,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
     margin: auto;
 }
 
@@ -313,7 +303,6 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
     margin: auto;
 }
 
@@ -382,7 +371,7 @@ textarea {
 }
 
 .yoga-img {
-    width: 15%;
+    width: 10%;
     position: absolute;
     top: -6%;
     left: 1%;
@@ -410,7 +399,7 @@ footer {
 }
 
 .access-info {
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 

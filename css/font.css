@@ -118,6 +118,8 @@ body {
 
 .or-center {
     font-weight: var(--font-weight-bold);
+    text-align: center;
+    margin: 10px 0;
 }
 
 .description .business-hours {

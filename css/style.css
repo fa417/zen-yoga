@@ -74,7 +74,7 @@ html {
     height: 30px;
     background: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1440 60' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><path fill='none' stroke='%23dcebf2' stroke-width='4' d='M0,30 C180,10 360,50 540,30 S900,10 1080,30 S1260,50 1440,30'/></svg>") no-repeat center;
     background-size: cover;
-    margin: auto;
+    margin: 10px auto;
 }
 
 /*  */
