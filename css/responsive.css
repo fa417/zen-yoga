@@ -185,12 +185,12 @@
         width: 40%;
     }
 
-    .point-circle.w,
+    /* .point-circle.w,
     .point.w .point-circle,
     .point-circle.b {
         width: 50px;
         height: 50px;
-    }
+    } */
 
     .zen-yoga-points-section .points-title {
         font-size: var(--font-size-24px);

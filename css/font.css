@@ -168,7 +168,7 @@ body {
 
 .point-circle.b p:last-of-type {
     color: var(--white-color);
-    font-size: var(--font-size-18px);
+    font-size: var(--font-size-16px);
     line-height: .9rem;
 }
 
