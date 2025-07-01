@@ -467,6 +467,9 @@
     .yoga-sessions {
         padding-top: 60px;
         gap: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .sun {
@@ -475,7 +478,7 @@
     }
 
     .moon {
-        top: -28%;
+        top: -10%;
         right: -2%;
         width: 15%;
     }
@@ -567,9 +570,10 @@
 
     .point.p,
     .point.w {
+        display: flex;
         justify-content: center;
         width: 80%;
-        gap: 30px;
+        gap: 20px;
         padding: 20px;
     }
 
@@ -620,6 +624,7 @@
 
     .point-header,
     .step-content {
+        justify-content: flex-start;
         gap: 20px;
     }
 
@@ -662,6 +667,9 @@
     }
 
     .profile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         width: 100%;
     }
 
@@ -673,6 +681,7 @@
     .woman-50 {
         width: 100%;
         height: 150px;
+        border-radius: 20px 0 0 20px;
     }
 
     .profile .profile-img p {
@@ -680,13 +689,14 @@
     }
 
     .profile-text {
-        width: 100%;
+        width: 50%;
         padding: 10px;
         line-height: 1.8rem;
     }
 
     .profile .profile-img p {
         font-size: var(--font-size-16px);
+        border-bottom-left-radius: 20px;
     }
 
     /*  */
