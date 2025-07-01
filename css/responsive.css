@@ -196,7 +196,7 @@
         font-size: var(--font-size-24px);
     }
 
-    .point-info-sp{
+    .point-info-sp {
         text-align: center;
     }
 
@@ -236,9 +236,9 @@
     .woman-40,
     .woman-50 {
         aspect-ratio: 1/1;
-    } */
+    }
 
-    .profile .profile-img p {
+    */ .profile .profile-img p {
         font-size: var(--font-size-14px);
     }
 
@@ -587,7 +587,8 @@
     .points-img,
     .step-img {
         width: 20%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .point-info-sp {
@@ -1095,7 +1096,8 @@
     .points-img,
     .step-img {
         width: 20%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .point-info-sp {
