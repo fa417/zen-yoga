@@ -61,9 +61,9 @@ body {
 }
 
 .home-link {
-    color: var(--white-color);
+    color: var(--dark-blue-color);
     font-size: var(--font-size-12px);
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-bold);
     text-align: center;
 }
 

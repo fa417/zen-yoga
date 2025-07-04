@@ -82,14 +82,12 @@ textarea {
     z-index: 1001;
 }
 
-.home-link{
+
+.home-link {
     position: fixed;
-    bottom: 40px;
-    left: 10px;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    bottom: 27px;
+    left: 0;
+    padding: 5px 10px;
     z-index: 1001;
 }
 

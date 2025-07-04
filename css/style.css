@@ -45,10 +45,13 @@ html {
 }
 
 .home-link{
-    background: var(--dark-blue-color);
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    background: var(--white-color);
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.home-link:active {
+    opacity: 0.5;
 }
 
 /*  */
