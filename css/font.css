@@ -60,6 +60,13 @@ body {
     letter-spacing: .1rem;
 }
 
+.home-link {
+    color: var(--white-color);
+    font-size: var(--font-size-12px);
+    font-weight: var(--font-weight-medium);
+    text-align: center;
+}
+
 /*  */
 
 /* ヒーローセクション */
@@ -178,7 +185,7 @@ body {
     font-weight: var(--font-weight-medium);
 }
 
-.point-info-sp{
+.point-info-sp {
     text-align: justify;
 }
 
@@ -311,8 +318,3 @@ body {
 }
 
 /*  */
-
-
-
-
-

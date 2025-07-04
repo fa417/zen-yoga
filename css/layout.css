@@ -82,6 +82,17 @@ textarea {
     z-index: 1001;
 }
 
+.home-link{
+    position: fixed;
+    bottom: 40px;
+    left: 10px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+}
+
 /*  */
 
 /* 共通 */

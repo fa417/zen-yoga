@@ -44,15 +44,23 @@
         font-weight: var(--font-weight-Medium);
     }
 
+    .home-link {
+        bottom: 55px;
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: var(--font-size-14px);
+    }
+
     /*  */
 
     /* スクロールボタン */
     .to-top {
         bottom: 55px;
-        right: 15px;
+        right: 20px;
         width: 40px;
         height: 40px;
-        font-size: 15px;
+        font-size: var(--font-size-18px);
     }
 
     /*  */
@@ -401,15 +409,19 @@
         font-size: var(--font-size-24px);
     }
 
+    .home-link {
+        display: none;
+    }
+
     /*  */
 
     /* スクロールボタン */
     .to-top {
         bottom: 65px;
-        right: 25px;
+        right: 30px;
         width: 50px;
         height: 50px;
-        font-size: 20px;
+        font-size: var(--font-size-24px);
     }
 
     /*  */
@@ -914,15 +926,19 @@
         font-size: var(--font-size-24px);
     }
 
+    .home-link {
+        display: none;
+    }
+
     /*  */
 
     /* スクロールボタン */
     .to-top {
         bottom: 65px;
-        right: 25px;
+        right: 30px;
         width: 60px;
         height: 60px;
-        font-size: 25px;
+        font-size: var(--font-size-24px);
     }
 
     /*  */
