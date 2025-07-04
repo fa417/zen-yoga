@@ -19,8 +19,8 @@
     --font-weight-bold: 700;
 }
 
-/* モバイル大 --サイズ:767px-- */
-@media (min-width: 379px) and (max-width: 767px) {
+/* モバイル大 --サイズ:768px-- */
+@media (min-width: 379px) and (max-width: 768px) {
     body {
         font-size: var(--font-size-18px);
         font-weight: var(--font-weight-regular);
@@ -374,8 +374,8 @@
 
 }
 
-/* タブレット --サイズ:768px～1023px-- */
-@media (min-width: 768px) and (max-width: 1023px) {
+/* タブレット --サイズ:769px～1023px-- */
+@media (min-width: 769px) and (max-width: 1023px) {
     body {
         font-size: var(--font-size-18px);
         font-weight: var(--font-weight-regular);
